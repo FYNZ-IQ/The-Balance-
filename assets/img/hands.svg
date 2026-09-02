@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="Two open hands, side by side">
+  <rect width="400" height="300" rx="20" fill="#EAE2D3"/>
+  <g fill="none" stroke="#0F4C5C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M80 250c-20-30-30-70-25-110 3-18 22-18 25 0l6 40"/>
+    <path d="M86 180l-4-70c-1-17 21-19 23-2l5 66"/>
+    <path d="M110 174l-2-80c0-17 22-18 23 0l2 78"/>
+    <path d="M133 172l4-62c1-16 22-16 22 1l-4 64"/>
+    <path d="M155 175c22 10 32 30 30 55-2 15-10 20-20 20H95"/>
+    <path d="M320 250c20-30 30-70 25-110-3-18-22-18-25 0l-6 40"/>
+    <path d="M314 180l4-70c1-17-21-19-23-2l-5 66"/>
+    <path d="M290 174l2-80c0-17-22-18-23 0l-2 78"/>
+    <path d="M267 172l-4-62c-1-16-22-16-22 1l4 64"/>
+    <path d="M245 175c-22 10-32 30-30 55 2 15 10 20 20 20h70"/>
+  </g>
+  <circle cx="200" cy="90" r="22" fill="#C58B2E" opacity="0.8"/>
+</svg>

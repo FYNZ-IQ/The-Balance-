@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Donate · The Balance Organization</title>
+  <meta name="description" content="Give once or monthly to keep legal aid and therapy free. Designated funds for prison services, the hotline, home-based therapy, and child protection.">
+  <meta name="theme-color" content="#0F4C5C">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="wrap site-header__bar">
+    <a class="brand" href="index.html">
+      <img class="brand__mark" src="assets/img/mark.svg" alt="" width="36" height="36">
+      <span class="brand__name">The Balance<small>Minds Matter, So Do Rights</small></span>
+    </a>
+    <nav class="site-nav" id="site-nav" aria-label="Main" data-open="false">
+      <ul>
+          <li><a href="who-we-are.html">Who We Are</a></li>
+          <li><a href="what-we-do.html">What We Do</a></li>
+          <li><a href="who-we-serve.html">Who We Serve</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="donate.html" aria-current="page">Donate</a></li>
+          <li><a href="impact.html">Impact</a></li>
+          <li><a href="advocacy.html">Advocacy</a></li>
+          <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="lang-toggle" role="group" aria-label="Language">
+      <button type="button" data-lang="en" aria-pressed="true" lang="en">EN</button>
+      <button type="button" data-lang="am" aria-pressed="false" lang="am">አማ</button>
+    </div>
+    <a class="btn btn--help" href="get-help.html">Get Help</a>
+    <button class="nav-toggle" type="button" aria-controls="site-nav" aria-expanded="false">
+      <span class="visually-hidden">Menu</span>
+      <svg class="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <svg class="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+    </button>
+  </div>
+  <div class="lang-notice" id="lang-notice" hidden>
+    <div class="wrap">
+      <p><span lang="am">የአማርኛ ገጾች በዝግጅት ላይ ናቸው። እባክዎ ይደውሉልን፦ <a href="tel:+251110000000">+251 11 000 0000</a>።</span><br>
+      <span lang="en">Our Amharic pages are being prepared. Please call us on <a href="tel:+251110000000">+251 11 000 0000</a>.</span></p>
+      <button type="button" data-close-lang-notice>Close</button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero--page">
+  <div class="wrap">
+    <span class="eyebrow">Donate</span>
+    <h1>Keep legal aid and therapy free for the people who need them</h1>
+    <p class="lead measure">Every service we provide is free to the person receiving it. Donations pay for lawyers' time, therapy sessions, transport to homes and prisons, and the hotline. Thank you for considering it.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <form class="form" method="post" action="#" data-site-form id="give-form"
+          data-success="&lt;h3&gt;Thank you.&lt;/h3&gt;&lt;p&gt;We have recorded your intended gift and will send a receipt once payment is received.&lt;/p&gt;">
+      <h2>Choose how you would like to give</h2>
+      <p class="measure mb-3">Monthly giving lets us plan therapy and casework months ahead. One-time gifts are just as welcome.</p>
+
+      <div class="give-grid">
+        <div class="give-card" data-frequency="monthly" data-selected="true">
+          <span class="give-card__badge">Default</span>
+          <h3><label style="display:inline-flex;gap:.6rem;align-items:center;cursor:pointer"><input type="radio" name="frequency" value="monthly" checked style="width:1.35rem;height:1.35rem;accent-color:#0F4C5C"> Give monthly</label></h3>
+          <p class="muted">A steady amount each month. Change or stop at any time.</p>
+          <div class="amounts" role="group" aria-label="Monthly amount">
+            <label><input type="radio" name="amount_monthly" value="500"> 500</label>
+            <label><input type="radio" name="amount_monthly" value="1000" checked> 1,000</label>
+            <label><input type="radio" name="amount_monthly" value="2500"> 2,500</label>
+            <label><input type="radio" name="amount_monthly" value="5000"> 5,000</label>
+          </div>
+          <div class="amount-custom">
+            <label class="visually-hidden" for="custom-monthly">Other monthly amount</label>
+            <input type="number" id="custom-monthly" name="custom_monthly" min="1" step="1" placeholder="Other amount" inputmode="numeric" style="min-height:3rem;border:2px solid #8C8579;border-radius:10px;padding:.6rem .9rem;font:inherit;width:100%">
+            <label class="visually-hidden" for="currency-monthly">Currency</label>
+            <select id="currency-monthly" name="currency_monthly">
+              <option value="ETB">ETB</option>
+              <option value="USD">USD</option>
+              <option value="EUR">EUR</option>
+              <option value="GBP">GBP</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="give-card" data-frequency="once" data-selected="false">
+          <h3><label style="display:inline-flex;gap:.6rem;align-items:center;cursor:pointer"><input type="radio" name="frequency" value="once" style="width:1.35rem;height:1.35rem;accent-color:#0F4C5C"> Give once</label></h3>
+          <p class="muted">A single gift, whenever you choose.</p>
+          <div class="amounts" role="group" aria-label="One-time amount">
+            <label><input type="radio" name="amount_once" value="1000"> 1,000</label>
+            <label><input type="radio" name="amount_once" value="2500"> 2,500</label>
+            <label><input type="radio" name="amount_once" value="10000"> 10,000</label>
+            <label><input type="radio" name="amount_once" value="25000"> 25,000</label>
+          </div>
+          <div class="amount-custom">
+            <label class="visually-hidden" for="custom-once">Other one-time amount</label>
+            <input type="number" id="custom-once" name="custom_once" min="1" step="1" placeholder="Other amount" inputmode="numeric" style="min-height:3rem;border:2px solid #8C8579;border-radius:10px;padding:.6rem .9rem;font:inherit;width:100%">
+            <label class="visually-hidden" for="currency-once">Currency</label>
+            <select id="currency-once" name="currency_once">
+              <option value="ETB">ETB</option>
+              <option value="USD">USD</option>
+              <option value="EUR">EUR</option>
+              <option value="GBP">GBP</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <h2 class="mt-4">Where your gift goes</h2>
+      <p class="measure mb-3">Choose one of four designated funds, or let us direct it where it is needed most.</p>
+      <div class="fund-grid">
+        <label class="fund">
+          <input type="radio" name="fund" value="prison" data-label="prison-based services">
+          <span><strong>Prison-based services</strong><span>Funds lawyers' and psychologists' visits to people in prison, and the casework that follows.</span></span>
+        </label>
+        <label class="fund">
+          <input type="radio" name="fund" value="hotline" data-label="the hotline for people outside Addis Ababa">
+          <span><strong>Hotline for people outside Addis Ababa</strong><span>Funds the phone line, the trained staff who answer it, and follow-up for callers across Ethiopia.</span></span>
+        </label>
+        <label class="fund">
+          <input type="radio" name="fund" value="home" data-label="home-based therapy">
+          <span><strong>Home-based therapy</strong><span>Funds therapy sessions in the homes of people who cannot travel because of illness, disability, safety, or caring duties.</span></span>
+        </label>
+        <label class="fund">
+          <input type="radio" name="fund" value="children" data-label="child protection">
+          <span><strong>Child protection</strong><span>Funds custody advocacy, child protection casework, and therapy designed for children.</span></span>
+        </label>
+        <label class="fund" style="grid-column:1 / -1">
+          <input type="radio" name="fund" value="general" data-label="where it is needed most" checked>
+          <span><strong>Where it is needed most</strong><span>We direct your gift to whichever service has the greatest need this quarter.</span></span>
+        </label>
+      </div>
+
+      <div class="give-summary mt-3" aria-live="polite">
+        <p id="give-summary-text">Choose an amount to see your gift summary.</p>
+      </div>
+      <div class="form-actions">
+        <button class="btn btn--secondary" type="button" id="give-continue">Continue to payment</button>
+      </div>
+
+      <div class="payment mt-4" id="payment" hidden>
+        <h2>Complete your gift</h2>
+        <p class="measure">Choose the method that suits you. Please include your name and the fund you chose as a reference, so we can send a receipt and direct the gift correctly.</p>
+        <div class="grid grid--3 mt-3">
+          <div class="card card--soft">
+            <h3>Bank transfer (Ethiopia)</h3>
+            <p><strong>Account name:</strong> The Balance Organization<br>
+            <strong>Bank:</strong> To be confirmed<br>
+            <strong>Account number:</strong> To be confirmed</p>
+          </div>
+          <div class="card card--soft">
+            <h3>Mobile money</h3>
+            <p><strong>Telebirr:</strong> To be confirmed<br>
+            Use the fund name as the payment note.</p>
+          </div>
+          <div class="card card--soft">
+            <h3>International</h3>
+            <p>Card and international bank giving will be available soon. Until then, please email <a href="mailto:help@thebalance-ethiopia.org">help@thebalance-ethiopia.org</a> and we will send transfer details.</p>
+          </div>
+        </div>
+        <div class="grid grid--2 mt-3">
+          <div class="field">
+            <label for="d-name">Your name <span class="optional">(for the receipt)</span></label>
+            <input type="text" id="d-name" name="name" autocomplete="name">
+          </div>
+          <div class="field">
+            <label for="d-email">Email <span class="optional">(for the receipt)</span></label>
+            <input type="email" id="d-email" name="email" autocomplete="email">
+          </div>
+        </div>
+        <div class="form-actions">
+          <button class="btn btn--secondary" type="submit">Record my gift and send a receipt</button>
+        </div>
+        <div class="form-status" hidden aria-live="polite"></div>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section class="section section--white" id="transparency">
+  <div class="wrap two-up">
+    <div>
+      <span class="eyebrow">Financial transparency</span>
+      <h2>How we account for your money</h2>
+      <hr class="rule">
+      <ul class="checklist">
+        <li>Our accounts are audited each year by an independent auditor. We publish the audit in full.</li>
+        <li>We publish an annual report showing income, spending by programme, and what the money paid for.</li>
+        <li>Designated gifts are tracked separately and spent only on the fund you chose.</li>
+        <li>We never charge the people we help. Every donation goes toward services, not toward covering what clients would otherwise pay.</li>
+        <li>Every donor receives a receipt. Regular donors receive a short update each quarter.</li>
+      </ul>
+      <p class="mt-3"><a class="btn btn--secondary" href="impact.html#reports">Read our reports</a></p>
+    </div>
+    <div class="two-up__art art">
+      <img src="assets/img/path.svg" alt="" width="400" height="300">
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap grid grid--2">
+    <div class="card">
+      <h3>Other ways to give</h3>
+      <p>Organisations, law firms, and foundations can fund a whole programme, second staff, or provide in-kind support such as office space or transport. Write to <a href="mailto:help@thebalance-ethiopia.org">help@thebalance-ethiopia.org</a>.</p>
+    </div>
+    <div class="card">
+      <h3>Give your time instead</h3>
+      <p>Licensed lawyers and psychologists can take on a small pro bono caseload with training and supervision.</p>
+      <a class="btn btn--secondary btn--sm" href="volunteer.html">Volunteer</a>
+    </div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-free">
+      <p><strong>All our services are free of charge.</strong> We never ask the people we help to pay for anything. Legal aid, therapy, home visits, prison visits, and the hotline all cost nothing.</p>
+    </div>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <img class="brand__mark" src="assets/img/mark.svg" alt="" width="36" height="36">
+          <span class="brand__name">The Balance Organization<small>Where the law meets psychology</small></span>
+        </a>
+        <p>An Ethiopian non-profit in Addis Ababa. We provide free legal aid and psychological care together, so that no one has to choose between justice and healing.</p>
+        <p>We are not an emergency service. Our lines are answered during office hours, Monday to Friday, 8:30 am to 5:00 pm.</p>
+      </div>
+      <div>
+        <h2>For people who need help</h2>
+        <ul>
+          <li><a href="get-help.html">Get Help</a></li>
+          <li><a href="who-we-serve.html">Who We Serve</a></li>
+          <li><a href="what-we-do.html">What We Do</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>For supporters</h2>
+        <ul>
+          <li><a href="donate.html">Donate</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="impact.html">Impact &amp; Reports</a></li>
+          <li><a href="advocacy.html">Advocacy &amp; Documentation</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Reach us</h2>
+        <ul>
+          <li><a href="tel:+251110000000">+251 11 000 0000</a></li>
+          <li><a href="tel:+251900000000">Hotline: +251 90 000 0000</a></li>
+          <li><a href="mailto:help@thebalance-ethiopia.org">help@thebalance-ethiopia.org</a></li>
+          <li>Addis Ababa, Ethiopia</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year">2026</span> The Balance Organization. Minds Matter, So Do Rights.</p>
+      <p><a href="who-we-are.html">Who We Are</a> &middot; <a href="contact.html">Contact</a> &middot; <span lang="am">አማርኛ</span> / English</p>
+    </div>
+  </div>
+</footer>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

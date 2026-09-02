@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" role="img" aria-label="Open sky over a quiet horizon">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0F4C5C" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#0F4C5C" stop-opacity="0.02"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" rx="20" fill="#FFFFFF"/>
+  <rect width="600" height="260" rx="20" fill="url(#g)"/>
+  <circle cx="430" cy="110" r="46" fill="#C58B2E" opacity="0.8"/>
+  <ellipse cx="170" cy="120" rx="70" ry="18" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="220" cy="105" rx="45" ry="14" fill="#FFFFFF" opacity="0.9"/>
+  <ellipse cx="330" cy="180" rx="60" ry="14" fill="#FFFFFF" opacity="0.8"/>
+  <path d="M0 262C120 240 250 240 330 258S520 280 600 258V340H0z" fill="#0F4C5C"/>
+  <path d="M0 290C140 272 280 270 600 292V340H0z" fill="#0B3A47"/>
+</svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" aria-label="A path leading toward light">
+  <rect width="400" height="300" rx="20" fill="#EAE2D3"/>
+  <circle cx="200" cy="90" r="40" fill="#C58B2E" opacity="0.8"/>
+  <path d="M0 200c80-30 160-30 200-30s120 0 200 30v100H0z" fill="#0F4C5C"/>
+  <path d="M175 300l-40-130h130l-40 130z" fill="#F4EFE6" opacity="0.9"/>
+  <path d="M0 170h400" stroke="#0F4C5C" stroke-width="3" opacity="0.3"/>
+</svg>
