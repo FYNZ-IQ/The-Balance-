@@ -33,8 +33,25 @@ Open any `.html` file in a browser, or serve the folder:
 python3 -m http.server 8000
 ```
 
-Deploy by uploading the folder to any static host (GitHub Pages, Netlify, Cloudflare Pages,
-or a plain web server).
+## Deployment
+
+The site deploys automatically to GitHub Pages through `.github/workflows/pages.yml` on every
+push to `main` or to `claude/balance-organization-website-bp71xy`. There is no build step: the
+repository root is published as-is, and `.nojekyll` stops Pages from running Jekyll over the
+HTML. The live address is shown on each run under the repository's Actions tab, and will be
+`https://fynz-iq.github.io/The-Balance-/`.
+
+The first run fails until GitHub Pages is switched on for the repository, which only a
+repository admin can do:
+
+1. The repository is private. GitHub Pages on a private repository needs a paid GitHub plan.
+   Either make the repository public (Settings → General → Danger zone → Change visibility)
+   or keep it private on a Team or Enterprise plan.
+2. Settings → Pages → Build and deployment → Source: **GitHub Actions**.
+3. Actions → "Deploy to GitHub Pages" → Run workflow. Every later push deploys automatically.
+
+The folder can also be uploaded to any other static host (Netlify, Cloudflare Pages, or a plain
+web server) without changes.
 
 ## Before launch: things to replace
 
