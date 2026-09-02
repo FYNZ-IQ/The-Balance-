@@ -35,20 +35,19 @@ python3 -m http.server 8000
 
 ## Deployment
 
-The site deploys automatically to GitHub Pages through `.github/workflows/pages.yml` on every
-push to `main` or to `claude/balance-organization-website-bp71xy`. There is no build step: the
-repository root is published as-is, and `.nojekyll` stops Pages from running Jekyll over the
-HTML. The live address is shown on each run under the repository's Actions tab, and will be
-`https://fynz-iq.github.io/The-Balance-/`.
+The site is live at **https://thebalanceorg.com** (also reachable at
+`https://fynz-iq.github.io/The-Balance-/`). It is hosted on GitHub Pages and deploys
+automatically through `.github/workflows/pages.yml` on every push to `main` or to
+`claude/balance-organization-website-bp71xy`, usually within a minute. There is no build step:
+the repository root is published as-is, and `.nojekyll` stops Pages from running Jekyll over
+the HTML. README-only changes do not trigger a deploy.
 
-The first run fails until GitHub Pages is switched on for the repository, which only a
-repository admin can do:
+Settings that make this work, in case they ever need to be re-created:
 
-1. The repository is private. GitHub Pages on a private repository needs a paid GitHub plan.
-   Either make the repository public (Settings → General → Danger zone → Change visibility)
-   or keep it private on a Team or Enterprise plan.
-2. Settings → Pages → Build and deployment → Source: **GitHub Actions**.
-3. Actions → "Deploy to GitHub Pages" → Run workflow. Every later push deploys automatically.
+- The repository is public (GitHub Pages is free only for public repositories).
+- Organization Settings → Member privileges → Pages creation → Public is ticked.
+- Repository Settings → Pages → Source is **GitHub Actions**, and the custom domain is
+  `thebalanceorg.com`.
 
 ### Custom domain: thebalanceorg.com
 
