@@ -50,6 +50,27 @@ repository admin can do:
 2. Settings → Pages → Build and deployment → Source: **GitHub Actions**.
 3. Actions → "Deploy to GitHub Pages" → Run workflow. Every later push deploys automatically.
 
+### Custom domain: thebalanceorg.com
+
+At the domain registrar, in DNS records, add these six records. Use `@` as the name for the
+root domain. Leave TTL on Auto (or 600). Do not add any other A, AAAA, or CNAME records for
+the same names.
+
+| Type | Name | Content |
+| --- | --- | --- |
+| A | `@` | `185.199.108.153` |
+| A | `@` | `185.199.109.153` |
+| A | `@` | `185.199.110.153` |
+| A | `@` | `185.199.111.153` |
+| CNAME | `www` | `fynz-iq.github.io` |
+| TXT | `_github-pages-challenge-fynz-iq` | value shown by GitHub when verifying the domain (optional but recommended) |
+
+Then on GitHub: Settings → Pages → Custom domain → enter `thebalanceorg.com` → Save. Wait for the
+DNS check to pass (minutes to a few hours), then tick **Enforce HTTPS**. Because the site is
+published by the workflow, the custom domain is set here in Settings, not with a CNAME file in
+the repository. All links in the site are relative, so it works at the root of the domain
+without changes.
+
 The folder can also be uploaded to any other static host (Netlify, Cloudflare Pages, or a plain
 web server) without changes.
 
