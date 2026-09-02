@@ -63,7 +63,7 @@ the same names.
 | A | `@` | `185.199.110.153` |
 | A | `@` | `185.199.111.153` |
 | CNAME | `www` | `fynz-iq.github.io` |
-| TXT | `_github-pages-challenge-fynz-iq` | value shown by GitHub when verifying the domain (optional but recommended) |
+| TXT | `_github-pages-challenge-FYNZ-IQ` | `4972f56b7f0cb6eed9bbcd2fe8a53d` (domain verification, entered under Organization Settings → Pages → Add a verified domain) |
 
 Then on GitHub: Settings → Pages → Custom domain → enter `thebalanceorg.com` → Save. Wait for the
 DNS check to pass (minutes to a few hours), then tick **Enforce HTTPS**. Because the site is
