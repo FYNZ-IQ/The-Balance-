@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="80 40 440 320" role="img" aria-label="The Balance Organization">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="60 40 480 580" role="img" aria-label="The Balance Organization. Where the law meets psychology. Minds Matter, So Do Rights.">
 <defs>
   <linearGradient id="wreath" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C69B3E"/><stop offset="0.55" stop-color="#C69B3E"/><stop offset="1" stop-color="#25613A"/></linearGradient>
   <linearGradient id="pillar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#C69B3E"/><stop offset="0.5" stop-color="#25613A"/><stop offset="1" stop-color="#9E7524"/></linearGradient>
@@ -73,5 +73,19 @@
 <ellipse cx="396" cy="263" rx="7" ry="3" transform="rotate(-20 396 263)" fill="#25613A"/>
 <ellipse cx="378" cy="278" rx="7" ry="3" transform="rotate(30 378 278)" fill="#25613A"/>
 <ellipse cx="392" cy="274" rx="7" ry="3" transform="rotate(35 392 274)" fill="#25613A"/>
+</g>
+<g font-family='Georgia, "Times New Roman", serif' fill="#1B4A2E" text-anchor="middle">
+  <line x1="180" y1="386" x2="270" y2="386" stroke="#C69B3E" stroke-width="1.5"/><line x1="330" y1="386" x2="420" y2="386" stroke="#C69B3E" stroke-width="1.5"/>
+  <text x="300" y="393" font-size="20" letter-spacing="5">THE</text>
+  <text x="300" y="462" font-size="82" letter-spacing="2">BALANCE</text>
+  <path d="M262 474 c20 -10 46 -10 76 0" fill="none" stroke="#C69B3E" stroke-width="3" stroke-linecap="round"/>
+  <text x="300" y="512" font-size="34" letter-spacing="7">ORGANIZATION</text>
+  <ellipse cx="86" cy="500" rx="9" ry="4" transform="rotate(-20 86 500)" fill="#25613A"/><ellipse cx="102" cy="504" rx="9" ry="4" transform="rotate(20 102 504)" fill="#25613A"/><line x1="70" y1="502" x2="108" y2="502" stroke="#25613A" stroke-width="1.5"/>
+  <ellipse cx="514" cy="500" rx="9" ry="4" transform="rotate(20 514 500)" fill="#25613A"/><ellipse cx="498" cy="504" rx="9" ry="4" transform="rotate(-20 498 504)" fill="#25613A"/><line x1="492" y1="502" x2="530" y2="502" stroke="#25613A" stroke-width="1.5"/>
+  <line x1="160" y1="530" x2="440" y2="530" stroke="#C69B3E" stroke-width="1"/>
+  <text x="300" y="556" font-family="system-ui, Arial, sans-serif" font-size="16" font-weight="600" letter-spacing="3">WHERE THE LAW MEETS PSYCHOLOGY</text>
+  <line x1="72" y1="588" x2="100" y2="588" stroke="#C69B3E" stroke-width="1"/><line x1="500" y1="588" x2="528" y2="588" stroke="#C69B3E" stroke-width="1"/>
+  <circle cx="104" cy="588" r="3" fill="#C69B3E"/><circle cx="496" cy="588" r="3" fill="#C69B3E"/>
+  <text x="300" y="594" font-family="system-ui, Arial, sans-serif" font-size="15" font-weight="600" letter-spacing="3">MINDS MATTER, SO DO RIGHTS.</text>
 </g>
 </svg>

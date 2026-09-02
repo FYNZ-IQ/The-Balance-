@@ -198,7 +198,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--space-4) 0; }
   text-decoration: none; color: var(--teal-dark);
   margin-right: auto; min-height: var(--tap);
 }
-.brand__mark { width: 2.25rem; height: 2.25rem; flex: none; }
+.brand__mark { width: 3.25rem; height: auto; flex: none; }
 .brand__name {
   font-family: var(--font-serif); font-size: 1.15rem; line-height: 1.1; white-space: nowrap;
 }
@@ -520,6 +520,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: var(--space-4) 0; }
 .flow-actions { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; }
 .art { max-width: 22rem; margin-inline: auto; }
 .art--wide { max-width: 34rem; }
+.logo-frame { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: var(--space-3); }
 .two-up { display: grid; gap: var(--space-4); align-items: center; }
 @media (min-width: 52em) { .two-up { grid-template-columns: 1fr 1fr; } .two-up--art-left .two-up__art { order: -1; } }
 

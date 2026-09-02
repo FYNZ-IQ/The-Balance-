@@ -80,6 +80,13 @@ bilingual notice with the phone number. When Amharic pages are ready:
 3. Set `<html lang="am">` on the Amharic pages. The font stacks already include
    Noto Sans Ethiopic and Abyssinica SIL as fallbacks.
 
+## Logo
+
+The logo is a vector recreation of the supplied artwork, in `assets/img/logo.svg` (full lockup,
+used on Who We Are) and `assets/img/mark.svg` (emblem only, used in the header, footer, and as
+`favicon.svg`). To use the original raster artwork instead, save it as `assets/img/logo.png` and
+point the `<img>` on `who-we-are.html` at it.
+
 ## Design rules encoded in the site
 
 - **Get Help** is the primary action on every page (solid teal button in the header and in a
