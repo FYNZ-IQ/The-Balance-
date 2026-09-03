@@ -119,19 +119,18 @@ bilingual notice with the phone number. When Amharic pages are ready:
 
 ## Logo
 
-The logo is a vector recreation of the supplied artwork, in `assets/img/logo.svg` (full lockup,
-used on Who We Are) and `assets/img/mark.svg` (emblem only, used in the header, footer, and as
-`favicon.svg`). To use the original raster artwork instead, save it as `assets/img/logo.png` and
-point the `<img>` on `who-we-are.html` at it.
+The original logo artwork is `assets/img/logo.jpg` (compressed to about 77 KB, used on Home and
+Who We Are). `assets/img/mark.svg` is a small vector version of the emblem used in the header,
+footer, and as `favicon.svg`. The Home page photo is `assets/img/session.jpg`.
 
 ## Design rules encoded in the site
 
 - **Get Help** is the primary action on every page (solid teal button in the header and in a
   closing band on most pages). **Donate** is secondary and never sits in the same block.
-- Colours: deep teal `#0F4C5C`, warm sand `#F4EFE6`, muted gold `#C58B2E` (accent only; it does
-  not pass contrast as text on sand), charcoal `#2A2A2A`.
+- Colours: deep green `#25613A` (matching the logo), warm sand `#F4EFE6`, muted gold `#C58B2E`
+  (accent only; it does not pass contrast as text on sand), charcoal `#2A2A2A`.
 - Serif headings, system sans-serif body, 48px minimum tap targets, mobile-first layout.
-- Illustrations are calm line art (doorway, sky, hands, window, path). No photographs of clients.
+- Illustrations are calm line art (sky, hands, window, path) plus the supplied session photo on Home.
 - Confidentiality statements appear on Get Help and Contact. The footer states on every page
   that services are free and that the organisation is not an emergency service.
 - No pricing language, testimonials, client stories, countdowns, urgency banners, outcome
